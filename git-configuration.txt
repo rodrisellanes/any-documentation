@@ -1,0 +1,36 @@
+.gitignore : archivo en donde se van a guardar extensiones de archivos que no queremos subir a git.
+
+Descargar scm de git en https://git-scm.com/download/win
+
+https://www.gitignore.io/
+
+Para bajar un repo:
+
+	1 - Meternos en el repo hosteado en github.com
+	2 - Copiar el link que aparece por https
+	3 - `git clone link` del repo.
+
+Para saber como estamos frente al branch remoto:
+	1 - `git status`
+
+Para aniadir archivos a nuestro proximo commit (nuestro delta):
+	1 - `git add nombre-del-archivo/nombre-de-carpeta`
+
+Para sacar algun archivo/carpeta de staging:
+	1 - `git reset HEAD archivo/carpeta`
+
+Para commitear:
+	1 - `git commit -m "mensaje"`
+
+Para subir los cambios y actualizar el branch:
+	1 - `git push`
+
+
+
+Branch: espacio de cambios (bifurcacion) respecto a la rama principal de codigo.
+
+Importante: cada vez que arranco a trabajar en un branch, hacer git pull de lo ultimo.
+
+Esto garantiza tener los cambios mas actuales.
+
+Commit: un delta en los archivos que tiene el repositorio local y el remoto
