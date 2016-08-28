@@ -13,6 +13,7 @@ Para bajar un repo:
 Para saber como estamos frente al branch remoto:
 	1 - `git status`
 
+todo facil!!!
 Para aniadir archivos a nuestro proximo commit (nuestro delta):
 	1 - `git add nombre-del-archivo/nombre-de-carpeta`
 
