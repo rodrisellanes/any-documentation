@@ -35,3 +35,5 @@ Importante: cada vez que arranco a trabajar en un branch, hacer git pull de lo u
 Esto garantiza tener los cambios mas actuales.
 
 Commit: un delta en los archivos que tiene el repositorio local y el remoto
+
+If using IntelliJ IDEA, add to .gitignore the remaning configuration in this page "https://www.gitignore.io/" 
