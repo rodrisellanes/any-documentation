@@ -26,6 +26,8 @@ Para commitear:
 Para subir los cambios y actualizar el branch:
 	1 - `git push`
 
+Para eliminar un archivo/carpeta en el repositorio sin eliminarlo en local
+	1- `git rm --cached -r mydirectory OR myfile`
 
 
 Branch: espacio de cambios (bifurcacion) respecto a la rama principal de codigo.
